@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="add.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="app">
+    <h1 class="title">Add todo</h1>
+    <form action="post" id="formTodo">
+      <input type="text" placeholder="Adicione um todo" />
+      <button type="submit" class="button-add">Adicionar</button>
+    </form>
+  </div>
+  <script src="./dist/hack.js"></script>
+  <script src="./dist/add.js"></script>
+</body>
+</html>
